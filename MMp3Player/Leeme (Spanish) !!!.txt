@@ -1,0 +1,154 @@
+                          __.__        ___/\____   ___  __/\__  
+            __/\__  _/\__ \    \ __.__/         \ /   \/  ____\
+           /      \/     \ |    \\    \   _     ||     \ /   ___
+          /  /\      /\   \/    / \    \ |_\___/ |     | \__/   |
+         |   \|     /     <    /__/    / _  _   <     /         \
+         |    /_____|    /_\          /    \_|  |\    \\____..__\
+         /__.___\ /________|/.__  __./\___  ____/ /_____\  __\/___  _____
+                                \/        \/     \/      \/       \/___  \ 
+                                          /  /\      /\   \  /\    \ _/ /
+                                         <   \|     /     |  \/____/|_   \
+                                         |    /_____|    /_\  \   .___|   \
+                                         /__.___\ /________|___\  |___  __/
+                                               .:smaller:but:work:.   \/ 
+                                     
+                       Music Mp3 Player X  - Version 1.0 
+                      Copyright © 2004  by  Raúl Martínez      
+
+                                                        
+                          [   S  P  A  N  I  S  H   ]
+  
+                                  I N D I C E
+ 
+                    [--> ...qUE dIABLOS eS................]
+                    [--> ...fUNCIONAMIENTO................]
+                    [--> ...sKINS - lENGUAJES.............]
+                    [--> ...aCERCA DE.....................]
+
+
+          §*¤*~`~*¤§*¤*~`~*¤§¤*~`~[qUE dIABLOS eS]~`~*¤§¤*~`~*¤§§*¤*~`~*¤§
+
+       Music Mp3 Player X, busca, ordena y reproduce por medio de albums 
+       archivos mp3, wma, wav y muestra su caratula.
+
+                           <<<  cARACTERISTICAS  >>>                              
+
+       -> Totalmente Open Source.         -> Mini Mascara. 
+       -> Funcion Karaoke.                -> Editor de tags.
+       -> Reproduce mp3, wma, wav.        -> Mostrar Caratula como Wallpaper.
+       -> No necesita instalacion.        -> Soporte de Transparencia.
+       -> Soporte de Skins.               -> Control de Volumen.     
+       -> Multiples lenguajes.            -> Control de Reproduccion.
+       -> Explorador de Albums.           -> Explorador de Caratulas.
+       -> Intro mode.                     -> Mute mode.       
+       -> Funcion Repetir.                -> Orden Aleatorio. 
+ 
+
+
+
+
+        §*¤*~`~*¤§*¤*~`~*¤§¤*~`~[ fUNCIONAMIENTO ]~`~*¤§¤*~`~*¤§§*¤*~`~*¤§
+ 
+       Al executar Music Mp3 Player X busca primero en el directorio donde
+       es colocado y en todos sus subdirectorios buscando archivos mp3s,  
+       wma, wav, al encontrar 1 o mas archivos se le asigna como un album 
+       [capacidad de albums ilimitados, solo 48 con representacion grafica],
+       si se encuentra en el directorio una imagen .bmp o .jpg que 
+       contenga alguna de las palabras [*caratula*], [*portada*], [*front*],
+       [*frt*] sera asignada como caratula del album.  
+
+       Puedes utilizar la aplicacion para que reprodusca tus discos de mp3s
+       como autorun o reproducir directamente de tu disco duro.
+
+
+
+       §*¤*~`~*¤§*¤*~`~*¤§¤*~`~[ sKINS-lENGUAJES ]~`~*¤§¤*~`~*¤§§*¤*~`~*¤§ 
+
+       Los archivos del skin deben de estar en un sub folder en:
+       \MMp3Player\Skins\ en donde esta colocado el archivo .exe. El nombre
+       del folder sera tomado como el nombre del skin.
+        
+       ejemplo: 
+
+            +MMp3Player.exe
+            +--------------\MMp3Player  [folder]
+            +-------------------------\Skins  [folder]
+            +-------------------------------\NombreSkin [folder]
+            +------------------------------------------\Archivos Skin
+
+      La configuracion del skin: color transparente, posicion y color de 
+      los labels debe de estar en el archivo [skin.ini].
+
+                       <<<  Archivos de skin necesarios  >>>
+
+        <<< Imagenes .bmp o .jpg >>>           <<< Cursores .cur >>>
+
+     + Main     -> Imagen Principal.      + curMain     -> Cursor Principal.
+     + Mini     -> Imagen Mini Mascara.   + curButtons  -> Para los botones.
+     + Buttons  -> Botones Reproduccion.  + curSliderRep-> Cursor Slider Rep.
+     + Menu     -> Demas Botones.         + curSliderVol-> Cursor Slider Vol.
+     + SliderRep-> Imagen Reproduccion.   + curListaRep -> Para la lista rep.
+     + SliderVol-> Imagen de Volumen.     + curAlbums   -> Para los albums. 
+     + Sliders  -> Sliders Rep,Vol,       + curFind     -> Cuando Busque.   
+                   albums.
+     + ButtonsMini->Botones MiniMasc.
+
+       Descarga mas skins de http://www.geocities.com/skoria_36
+       o construye tus propios skins con Makeskins.exe, descargalo
+       desde el sitio web.
+     
+
+       Los archivos de lenguaje tienen la extencion .lng, debe estar colo-
+       cados en el folder \MMp3Player\Language\ para ser leeidos por la 
+       aplicacion.
+ 
+       Ejemplo: 
+
+            +MMp3Player.exe
+            +--------------\MMp3Player  [folder]
+            +-------------------------\Language  [folder]
+            +----------------------------------\Archivos de Languajes [.lng]
+
+       Nota: No modificar, alterar el orden de las lineas ya que estan en
+       orden especifico para su lectura por la aplicacion.
+
+
+
+        §*¤*~`~*¤§*¤*~`~*¤§¤*~`~[   aCERCA DE   ]~`~*¤§¤*~`~*¤§§*¤*~`~*¤§ 
+
+       Nota: Music Mp3 Player X es realizado con fines educacionales, por
+       lo tanto no podras recompilar el codigo y despues comercializarlo como
+       otra aplicacion sin mi permiso.
+
+       Si quieres modificar este codigo y distribuirlo como codigo fuente o
+       como programa compilado porfavor contactame a [escorpio36@hotmail.com]
+       y respetando los derechos de autor antes de hacelo.
+       
+       Apreciare cualquier notificacion de cualquier modificacion siempre y
+       cuando no intentes comercializarlo para obtener algun tipo de beneficio.
+
+       Por ultimo si tines alguna idea, comentario, sugerencia, bugs, dudas,
+       quieres mas skin chidos visita la pagina web:
+        [http://www.geocities.com/skoria_36] o mandame un mail.
+       
+       He estado trabajando algo de tiempo en este proyecto y me gustaria 
+       saber tu apinion para saber si hay alguna razon para seguir publica-
+       ndolo y agregarle algunas cosillas mas que tengo en mente...
+  
+       Esta la vista...  y...
+
+     
+             +-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=+      
+             |     Si NoS PinTaN CoMo UnOs GuEvOnEs, No Lo SoMoS ...    |
+             |               ¡¡¡ ViVa MeXiCo KabRonEs !!!               |
+             |              QuE Se SiEnTa El PoWeR MeXiCaNo...          |
+             +-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=+      
+
+        Music Mp3 Player X - Version 1.0 - Copyright © 2003-2004
+        Desarrollado por Raúl Martínez
+        Enero 2004
+        Valle de Santiago, Guanajuato, Mexico
+        e-mail: escorpio36@hotmail.com  
+        web: http://www.geocities.com/skoria_36
+      
+
